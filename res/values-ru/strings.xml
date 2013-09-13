@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HHDevSchool - Резюме</string>
+    <string name="title_activity_request_activity">Форма резюме</string>
+    <string name="title_activity_response_activity">Резюме</string>
+    
+    <string name="fullName">ФИО</string>
+    <string name="birthdate">Дата рождения</string>
+    <string name="sex">Пол</string>
+    <string name="post">Должность</string>
+    <string name="salary">Заработная плата</string>
+    <string name="phone">Номер телефона</string>
+    <string name="email">E-mail адрес</string>
+    <string name="button_send_request">Отправить запрос</string>
+    <string name="button_send_response">Отправить ответ</string>
+    <string name="form_title">Заполните необходимые поля</string>
+    
+    <string name="result_title">Реквизиты соискателя</string>
+    <string name="response_text_title">Ответ соискателю</string>
+    <string name="response_text_hint">Напечатайте свой текст здесь</string>
+    
+    <string name="dialog_reply_title">Ответ работодателя</string>
+    <string name="dialog_reply_button">Закрыть окно</string>
+    
+    <string name="dialog_birthdate_title">Выберете дату</string>
+    
+    <string name="sample_string">Пример</string>
+    
+    <string name="fullName_alarm">Поле &#34;ФИО&#34; должно быть заполнено</string>
+    <string name="birthdate_alarm">Поле &#34;Дата рождения&#34; должно быть заполнено</string>
+    <string name="post_alarm">Поле &#34;Должность&#34; должно быть заполнено</string>
+    <string name="salary_alarm">Поле &#34;Заработная плата&#34; и должно быть заполнено. Поле может содержать только цифры.</string>
+    <string name="phone_alarm">Поле &#34;Номер телефона&#34; должно быть заполнено. Пример: +&lt;код страны&gt;&lt;номер телефона&gt; или &lt;номер телефона&gt;</string>
+    <string name="email_alarm">Поле &#34;E-mail адрес&#34;должно быть заполнено. Пример: &lt;my@mail.com&gt;</string>
+    <string name="responsetext_alarm">Вы должны заполнить поле &#34;Ответ соискателю&#34; перед отправкой</string>
+</resources>

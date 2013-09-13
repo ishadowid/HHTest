@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HHDevSchool - Resume</string>
+    <string name="title_activity_request_activity">Resume form</string>
+    <string name="title_activity_response_activity">Resume</string>
+    
+    <string name="fullName">Full name</string>
+    <string name="birthdate">Date of birth</string>
+    <string name="sex">Sex</string>
+    <string name="post">Vacancy post</string>
+    <string name="salary">Minimum salary</string>
+    <string name="phone">Phone number</string>
+    <string name="email">E-mail address</string>
+    <string name="button_send_request">Send request</string>
+    <string name="button_send_response">Send response</string>
+    <string name="form_title">Input required information</string>
+    
+    <string name="result_title">Resume details</string>
+    <string name="response_text_title">Reply to resume</string>
+    <string name="response_text_hint">Write your text here</string>
+    
+    <string name="dialog_reply_title">Employer reply</string>
+    <string name="dialog_reply_button">Close dialog</string>
+    
+    <string name="dialog_birthdate_title">Choose date</string>
+    
+    <string name="sample_string">Sample</string>
+    
+    <string name="fullName_alarm">The field &#34;Full name&#34; must be complete</string>
+    <string name="birthdate_alarm">The field &#34;Date of birth&#34; must be complete</string>
+    <string name="post_alarm">The field &#34;Vacancy post&#34; must be complete</string>
+    <string name="salary_alarm">The field &#34;Minimum salary&#34; must be complete and must contain only digits.</string>
+    <string name="phone_alarm">The field &#34;Phone number&#34; must be complete and look like +&lt;country code&gt;&lt;phone number&gt; or &lt;phone number&gt;</string>
+    <string name="email_alarm">The field &#34;E-mail address&#34; must be complete and look like &lt;my@mail.com&gt;</string>
+    <string name="responsetext_alarm">You must complete reply text field before send</string>
+</resources>

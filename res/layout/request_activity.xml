@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollView_main_content"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true" >
+
+	<RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+        
+	    <TextView
+	        android:id="@+id/textView_form_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="14dp"
+	        android:text="@string/form_title"
+	        android:textSize="14pt" />
+	    
+        <EditText
+			android:id="@+id/editText_fullName"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:layout_marginRight="20dp"
+			android:layout_below="@+id/textView_form_title"
+			android:layout_marginTop="14dp"
+			android:ems="10"
+			android:hint="@string/fullName"
+			android:inputType="textCapWords" >
+		</EditText>
+		<!-- Запретить редактирование и заменить на всплывающее окно с датапикером -->
+		<EditText 
+			android:id="@+id/editText_birthdate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/editText_fullName"
+			android:layout_alignRight="@+id/editText_fullName"
+			android:layout_below="@+id/editText_fullName"
+			android:layout_marginTop="14dp"
+			android:ems="10"
+			android:hint="@string/birthdate"
+		    android:inputType="date" 
+		    android:focusable="false"
+		    >
+		</EditText>
+		
+		<Spinner
+		    android:id="@+id/spinner_sex"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/editText_birthdate"
+		    android:layout_alignRight="@+id/editText_birthdate"
+		    android:layout_below="@+id/editText_birthdate"
+		    android:layout_marginTop="14dp"
+		    android:contentDescription="@string/sex"
+		    android:prompt="@string/sex"
+		    android:spinnerMode="dropdown" />
+		
+		<EditText
+		    android:id="@+id/editText_post"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/spinner_sex"
+		    android:layout_alignRight="@+id/spinner_sex"
+		    android:layout_below="@+id/spinner_sex"
+		    android:layout_marginTop="14dp"
+		    android:ems="10"
+		    android:hint="@string/post"
+		    android:inputType="textCapSentences" >
+		</EditText>
+		
+		<EditText
+		    android:id="@+id/editText_salary"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/editText_post"
+		    android:layout_alignRight="@+id/editText_post"
+		    android:layout_below="@+id/editText_post"
+		    android:layout_marginTop="14dp"
+		    android:ems="10"
+		    android:hint="@string/salary"
+		    android:inputType="numberDecimal" >
+		</EditText>
+		
+		<EditText
+		    android:id="@+id/editText_phone"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/editText_salary"
+		    android:layout_alignRight="@+id/editText_salary"
+		    android:layout_below="@+id/editText_salary"
+		    android:layout_marginTop="14dp"
+		    android:ems="10"
+		    android:hint="@string/phone"
+		    android:inputType="phone" >
+		</EditText>
+		
+		<EditText
+		    android:id="@+id/editText_email"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/editText_phone"
+		    android:layout_alignRight="@+id/editText_phone"
+		    android:layout_below="@+id/editText_phone"
+		    android:layout_marginTop="14dp"
+		    android:ems="10"
+		    android:hint="@string/email"
+		    android:inputType="textEmailAddress" >
+		</EditText>
+
+		<Button
+		    android:id="@+id/button_send_request"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_centerHorizontal="true"
+		    android:layout_below="@+id/editText_email"
+		    android:layout_marginTop="14dp"
+		    android:text="@string/button_send_request" />
+
+     </RelativeLayout>
+ </ScrollView>
