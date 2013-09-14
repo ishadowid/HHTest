@@ -164,8 +164,7 @@
 		    android:layout_marginRight="20dp"
 	        android:layout_marginTop="14dp"
 	        android:text="@string/response_text_title"
-	        android:textSize="14pt"
-	        />
+	        android:textSize="14pt" />
 
 		<EditText
 		    android:id="@+id/editText_response_text"

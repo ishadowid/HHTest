@@ -38,6 +38,7 @@ public class RequestActivity extends Activity implements OnClickListener{
 			
 			Spinner spinnerSex = (Spinner) findViewById(R.id.spinner_sex);
 			ArrayAdapter<CharSequence> sexArrayAdapter = ArrayAdapter.createFromResource(this, R.array.sex_items, android.R.layout.simple_spinner_item);
+			
 			sexArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 			spinnerSex.setAdapter(sexArrayAdapter);
 			
@@ -83,6 +84,15 @@ public class RequestActivity extends Activity implements OnClickListener{
 				return;
 			}
 			
+			Spinner paramSpinner = ((Spinner)findViewById(R.id.spinner_sex));
+			if (paramSpinner.getSelectedItemId() != 0)
+				requestIntent.putExtra("com.shadow.hhtest.SEX", paramSpinner.getSelectedItem().toString());
+			else
+			{
+				Toast.makeText(this, R.string.sex_alarm, Toast.LENGTH_LONG).show();
+				return;
+			}
+			
 			param = ((EditText)findViewById(R.id.editText_post)).getText().toString();
 			if (!param.isEmpty())
 				requestIntent.putExtra("com.shadow.hhtest.POST", param);
@@ -119,8 +129,6 @@ public class RequestActivity extends Activity implements OnClickListener{
 				return;
 			}
 			
-			requestIntent.putExtra("com.shadow.hhtest.SEX", ((Spinner)findViewById(R.id.spinner_sex)).getSelectedItem().toString());
-			
 			startActivityForResult(requestIntent, IDA_RESPONSE_ACTIVITY);
 		}
 		catch(Exception e)
@@ -142,7 +150,7 @@ public class RequestActivity extends Activity implements OnClickListener{
 						showDialog(IDD_RESPONSE);
 					}
 					else
-						Toast.makeText(this, "resultCode not RESULT_OK", Toast.LENGTH_LONG).show();
+						Toast.makeText(this, "Something was wrong. Try again.", Toast.LENGTH_LONG).show();
 					break;
 				default:
 					Toast.makeText(this, "requestCode default action", Toast.LENGTH_LONG).show();

@@ -66,10 +66,9 @@ public class ResponseActivity extends Activity implements OnClickListener{
 		}
 		finish();
 	}
-	/*@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) 
-	{
-		Toast.makeText(this, "ResponseActivity.onActivityResult: ", Toast.LENGTH_LONG).show();
-	}*/
+	@Override
+	public void onBackPressed() {
+		return;
+	}
 }
 
