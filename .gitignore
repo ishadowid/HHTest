@@ -5,14 +5,14 @@
 *.pydevproject
 .project
 *.bak
+*bin/
+!*bin/HHTest.apk
 *.swp
 *~.nib
 local.properties
 .classpath
 .settings/
 .loadpath
-
-![Bb]in/
 
 # External tool builders
 .externalToolBuilders/
