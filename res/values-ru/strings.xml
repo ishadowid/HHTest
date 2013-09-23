@@ -27,12 +27,12 @@
     
     <string name="sample_string">Пример</string>
     
-    <string name="fullName_alarm">Поле &lt;ФИО&lt; должно быть заполнено</string>
-    <string name="birthdate_alarm">Поле &lt;Дата рождения&lt; должно быть заполнено</string>
+    <string name="fullName_alarm">Поле &lt;ФИО&gt; должно быть заполнено</string>
+    <string name="birthdate_alarm">Поле &lt;Дата рождения&gt; должно быть заполнено</string>
     <string name="sex_alarm">Вы должны выбрать пол чтобы продолжить</string>
-    <string name="post_alarm">Поле &lt;Должность&lt; должно быть заполнено</string>
-    <string name="salary_alarm">Поле &lt;Заработная плата&lt; и должно быть заполнено. Поле может содержать только цифры.</string>
-    <string name="phone_alarm">Поле &lt;Номер телефона&lt; должно быть заполнено. Пример: +&lt;код страны&gt;&lt;номер телефона&gt; или &lt;номер телефона&gt;</string>
-    <string name="email_alarm">Поле &lt;E-mail адрес&lt; должно быть заполнено. Пример: &lt;my@mail.com&gt;</string>
-    <string name="responsetext_alarm">Вы должны заполнить поле &lt;Ответ соискателю&lt; перед отправкой</string>
+    <string name="post_alarm">Поле &lt;Должность&gt; должно быть заполнено</string>
+    <string name="salary_alarm">Поле &lt;Заработная плата&gt; и должно быть заполнено. Поле может содержать только цифры.</string>
+    <string name="phone_alarm">Поле &lt;Номер телефона&gt; должно быть заполнено. Пример: +&lt;код страны&gt;&lt;номер телефона&gt; или &lt;номер телефона&gt;</string>
+    <string name="email_alarm">Поле &lt;E-mail адрес&gt; должно быть заполнено. Пример: &lt;my@mail.com&gt;</string>
+    <string name="responsetext_alarm">Вы должны заполнить поле &lt;Ответ соискателю&gt; перед отправкой</string>
 </resources>

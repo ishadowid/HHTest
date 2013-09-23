@@ -27,12 +27,12 @@
     
     <string name="sample_string">Sample</string>
     
-    <string name="fullName_alarm">The field &lt;Full name&lt; must be complete</string>
-    <string name="birthdate_alarm">The field &lt;Date of birth&lt; must be complete</string>
+    <string name="fullName_alarm">The field &lt;Full name&gt; must be complete</string>
+    <string name="birthdate_alarm">The field &lt;Date of birth&gt; must be complete</string>
     <string name="sex_alarm">You must choose sex to continue</string>
-    <string name="post_alarm">The field &lt;Vacancy post&lt; must be complete</string>
-    <string name="salary_alarm">The field &lt;Minimum salary&lt; must be complete and must contain only digits.</string>
-    <string name="phone_alarm">The field &lt;Phone number&lt; must be complete and look like +&lt;country code&gt;&lt;phone number&gt; or &lt;phone number&gt;</string>
-    <string name="email_alarm">The field &lt;E-mail address&lt; must be complete and look like &lt;my@mail.com&gt;</string>
+    <string name="post_alarm">The field &lt;Vacancy post&gt; must be complete</string>
+    <string name="salary_alarm">The field &lt;Minimum salary&gt; must be complete and must contain only digits.</string>
+    <string name="phone_alarm">The field &lt;Phone number&gt; must be complete and look like +&lt;country code&gt;&lt;phone number&gt; or &lt;phone number&gt;</string>
+    <string name="email_alarm">The field &lt;E-mail address&gt; must be complete and look like &lt;my@mail.com&gt;</string>
     <string name="responsetext_alarm">You must complete reply text field before send</string>
 </resources>
