@@ -5,8 +5,8 @@
 *.pydevproject
 .project
 *.bak
-*bin/
-!*bin/HHTest.apk
+bin/
+!bin/HHTest.apk
 *.swp
 *~.nib
 local.properties
